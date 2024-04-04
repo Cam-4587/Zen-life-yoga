@@ -16,7 +16,6 @@ section > div {
 #navigation {
   font-weight: 100;
   font-size:medium;
-  display:flex;
-  gap:1rem;
-  padding-left: 41%;
+  text-align:center;
+  /* Find way to separate nav bar elements */
 } 
