@@ -6,3 +6,10 @@ header {
     font-size: 500%;
     opacity:0.5;
 }
+section > div {
+  text-align: center;
+  background-color: lightgreen;
+  opacity:0.5;
+  font-weight: bolder;
+  color:white;
+}
