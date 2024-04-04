@@ -13,6 +13,10 @@ section > div {
   font-weight: bolder;
   color:white;
 }
-#nav_text {
-  font-size: small;
-}
+#navigation {
+  font-weight: 100;
+  font-size:medium;
+  display:flex;
+  gap:1rem;
+  padding-left: 41%;
+} 
