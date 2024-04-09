@@ -1,6 +1,6 @@
 *{
   padding:0;
-  margin:0
+  margin:0;
 }
 header {
     background-color: lightgreen;
@@ -44,11 +44,21 @@ section > div {
   list-style-type: none;
   gap: 30px
 } 
-.schedule {
-  text-align: center;
-  padding-left: 15%;
+.schedule-main{
+  min-height: 100vh;
+  background: repeating-linear-gradient(#c3f0d3, #81d69f);
+  font-family: arial;
 }
-  
+.schedule {
+text-align: center;
+width: 95vw;
+height: 75vh;
+padding-left:5%;
+}
+.schedule > caption{
+  font-size:37px;
+  text-align: center;
+}  
 .Query-box {
   display: flex;
   flex-direction: row;
