@@ -21,7 +21,7 @@ padding:0;
 position:relative;
 }
 
-main {
+.main-home{
   min-height: 100vh;
   background-image: url(Images/pexels-yan-krukau-8437076.jpg);
   background-size:cover;
@@ -44,10 +44,33 @@ section > div {
   list-style-type: none;
   gap: 30px
 } 
+
+.Query-box {
+  display: flex;
+  flex-direction: row;
+  gap:5%;
+  border-width:10px;
+  border: 5px solid;
+  vertical-align: stretch;
+}
+
+.contact-info {
+  font-weight:500;
+  list-style-type: none;
+  align-content: space-between;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+#main-contact {
+  height:100vh;
+}
+
 footer {
   background-color: lightgreen;
   color: white;
   padding: 10px 10px;
+  margin: 0vh;
 }
 footer > ul {
   display:flex;
