@@ -61,33 +61,19 @@ padding-left:5%;
   text-align: center;
   text-decoration: underline;
 }  
-.Query-box {
-  display: flex;
-  flex-direction: row;
-  gap:5%;
-  border-width:10px;
-  border: 5px solid;
-  vertical-align: stretch; 
-}
-
-.contact-info {
-  font-weight:500;
-  list-style-type: none;
-  align-content: space-between;
-  flex-direction: column;
-  align-items: stretch;
-  padding-left: 10px;
-}
-
-#main-contact {
-  height:100vh;
+#contact-info {
+display:flex;
+gap: 15vw;
+margin-left:10vw;
+margin-top:10px;
+margin-bottom:10px;
 }
 
 footer {
   background-color: lightgreen;
   color: white;
   padding: 10px 10px;
-  margin: 0vh;
+  margin: 0vh 0vw;
 }
 footer > ul {
   display:flex;
