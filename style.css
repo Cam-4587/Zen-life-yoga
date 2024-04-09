@@ -44,7 +44,11 @@ section > div {
   list-style-type: none;
   gap: 30px
 } 
-
+.schedule {
+  text-align: center;
+  padding-left: 15%;
+}
+  
 .Query-box {
   display: flex;
   flex-direction: row;
