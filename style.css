@@ -9,6 +9,7 @@ header {
     font-weight: bold;
     font-size: 500%;
     padding-bottom: 3vh;
+    align-items: center;
 }
 #header-logo {
   vertical-align:middle;
@@ -58,6 +59,7 @@ padding-left:5%;
 .schedule > caption{
   font-size:37px;
   text-align: center;
+  text-decoration: underline;
 }  
 .Query-box {
   display: flex;
