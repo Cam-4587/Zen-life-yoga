@@ -10,8 +10,15 @@ header {
     font-size: 500%;
     padding-bottom: 3vh;
 }
+#header-logo {
+  vertical-align:middle;
+  height: 1em;
+  position:left;
+  color: white;
+} 
 header h4 {
 padding:0;
+position:relative;
 }
 
 main {
