@@ -2,6 +2,7 @@
   padding:0;
   margin:0;
 }
+/* Header */
 header {
     background-color: lightgreen;
     color: white;
@@ -22,6 +23,7 @@ padding:0;
 position:relative;
 }
 
+/* Home page styling*/
 .main-home{
   min-height: 100vh;
   background-image: url(Images/pexels-yan-krukau-8437076.jpg);
@@ -45,6 +47,8 @@ section > div {
   list-style-type: none;
   gap: 30px
 } 
+
+/*schedule styling*/
 .schedule-main{
   min-height: 100vh;
   background: repeating-linear-gradient(#c3f0d3, #81d69f);
@@ -61,6 +65,7 @@ padding-left:5%;
   text-align: center;
   text-decoration: underline;
 }  
+/*contact page styling */
 #contact-info {
 display:flex;
 gap: 15vw;
@@ -68,7 +73,7 @@ margin-left:10vw;
 margin-top:10px;
 margin-bottom:10px;
 }
-
+/* Footer styling */
 footer {
   background-color: lightgreen;
   color: white;
